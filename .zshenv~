@@ -1,0 +1,26 @@
+export JAVA_HOME=/home/biswajitrajaguru/coding/jdk-18.0.2
+
+NPM_PACKAGES=/home/biswajitrajaguru/.npm-packages
+NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+
+export PATH=$HOME/coding/racket/bin:$HOME/bin:/home/biswajitrajaguru/coding/nvim-linux64/bin:$JAVA_HOME/bin:$NPM_PACKAGES/bin:$PATH:/bin:/sbin:$HOME/.local/bin:$HOME/.local/share/bin:/home/biswajitrajaguru/coding/idea/bin:$HOME/coding/go/bin:$HOME/go/bin:
+
+export PATH=/home/biswajitrajaguru/coding/mit-scheme/bin:$HOME/coding/c/bin:$HOME/coding/c/lib:$HOME/coding/nvim-nightly/bin:$PATH:$HOME/coding/zig/ziglang:/home/biswajitrajaguru/coding/V/v:/home/biswajitrajaguru/coding/nim/nim-1.7.3/bin:~/.nimble/bin:/home/biswajitrajaguru/coding/helix_editor/helix-22.08.1-x86_64-linux:
+
+export DOTNET_ROOT=$HOME/coding/dotnet
+
+export CPATH=$CPATH:$HOME/coding/c/include:
+
+export LIBRARY_PATH=$LIBRARY_PATH:$HOME/coding/c/lib:
+
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:/home/biswajitrajaguru/coding/processing-4.0.1:$HOME/mylogs:
+
+export NPM_PACKAGES
+export NODE_PATH
+export GOPATH=`go env GOPATH`
+export GOROOT=`go env GOROOT`
+#export PATH=$PATH:$GOPATH/bin:$GOROOT/bin:
+
+. "$HOME/.cargo/env"
+#remove this if you wanna go back to oh my zsh
+#ZDOTDIR="$HOME/.config/zsh"
